@@ -1,17 +1,24 @@
 {
-  "name": "resume",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "nuxt": "^4.2.2",
-    "vue": "^3.5.26",
-    "vue-router": "^4.6.4"
-  }
+    "name": "resume",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "fonts": "cp -r ./node_modules/hedera-ui/dist/fonts ./public"
+    },
+    "dependencies": {
+        "@jamescoyle/vue-icon": "^0.1.2",
+        "@mdi/js": "^7.4.47",
+        "hedera-ui": "link:hedera-ui",
+        "nuxt": "^4.2.2",
+        "vue": "^3.5.26",
+        "vue-router": "^4.6.4"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    }
 }

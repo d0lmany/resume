@@ -25,3 +25,8 @@ logs
 
 # IDE
 .vscode
+
+# my
+docs
+temp
+public/fonts/
